@@ -1,5 +1,5 @@
 {
-  "name": "@paul/iut-encrypt",
+  "name": "@pahri/iut-encrypt",
   "version": "1.0.0",
   "description": "a simple npm package to encrypt password",
   "main": "index.js",
