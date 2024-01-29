@@ -4,4 +4,11 @@ function sha1(str) {
   return require('crypto').createHash('sha1').update(str).digest('hex');
 }
 
-exports.sha1 = sha1;
+function compareSha1(str, hash) {
+  return sha1(str) === hash;
+}
+
+export default {
+  sha1,
+  compareSha1
+};
