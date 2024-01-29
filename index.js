@@ -8,7 +8,7 @@ function compareSha1(str, hash) {
   return sha1(str) === hash;
 }
 
-export default {
+exports = module.exports ={
   sha1,
   compareSha1
 };
