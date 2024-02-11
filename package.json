@@ -1,6 +1,6 @@
 {
   "name": "@pahri/iut-encrypt",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "a simple npm package to encrypt password",
   "main": "index.js",
   "scripts": {
